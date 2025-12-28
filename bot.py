@@ -5,9 +5,9 @@ from flask import Flask, request
 
 # Configuration - Railway will add these automatically
 TELEGRAM_TOKEN = os.environ.get("8268214914:AAGuEeRY2QnzArz2C8THpcKhOAn9TJbxEa4", "")
-GROQ_KEY = os.environ.get("", "")
+GROQ_KEY = os.environ.get("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", "")
 
-bot = telebot.TeleBot(TELEGRAM_TOKEN)
+bot = telebot.TeleBot(8268214914:AAGuEeRY2QnzArz2C8THpcKhOAn9TJbxEa4)
 app = Flask(__name__)
 
 def ask_ai(question):
